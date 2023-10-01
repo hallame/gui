@@ -43,7 +43,7 @@ public class LabGUI {
 		});
 		f.add(b1);
 		
-		Button b2 = new Button("Annuler");
+		Button b2 = new Button("Cancel");
 		b2.setBounds(250, 220, 80, 25);
 		b2.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
@@ -56,7 +56,7 @@ public class LabGUI {
 		});
 		f.add(b2);
 		
-		Button b3 = new Button("Quitter");
+		Button b3 = new Button("Quit");
 		b3.setBounds(250, 260, 80, 25);
 		b3.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
