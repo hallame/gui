@@ -70,7 +70,6 @@ public class LabGUI {
                 f.dispose();    
             }
 		});
-		
 		f.setSize(460, 400);
 		f.setLayout(null);  
 		f.setVisible(true);
